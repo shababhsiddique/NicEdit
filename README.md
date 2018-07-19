@@ -1,5 +1,5 @@
 **Not a maintained project**
 
-Lightweight, Cross Platform WYSIWYG editor.
+Custom Wrap for lightweight wysiwyg editor NicEdit. http://nicedit.com/
 
-Project is a member of the [OSS Manifesto](http://ossmanifesto.org/)
+Changed look to use font awesome style icons and floating bar like content tools.
