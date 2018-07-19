@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Demo 5 : Editor Styles</title>
+	<link rel='stylesheet' type='text/css' href='../panel.css'/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="menu"></div>
+
+<div id="intro">
+<p>NicEdit instances and the panel can be styled using CSS classes to fit the look and feel of your site. THis is a modern look with floating panel and font awesome icons</p>
+
+</div>
+
+<div id="sample">
+
+<script src="../nicEdit.js" type="text/javascript"></script>
+<script type="text/javascript">
+     bkLib.onDomLoaded(function() {
+          var myNicEditor = new nicEditor();
+          myNicEditor.setPanel('myNicPanel');
+          myNicEditor.addInstance('myInstance1');
+     });
+</script>
+
+
+<div id="myNicPanel">
+        <span class="grab"></span>
+    </div>
+
+<h4>Selected Style Example</h4>
+<div id="myInstance1" style="font-size: 20px; background-color: #FEFEFE; padding: 3px; width: 600px; margin: 60px 200px;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed magna dolor, faucibus ac, iaculis non, cursus et, dui. Donec non urna. Aliquam volutpat ornare augue. Phasellus egestas, nisl fermentum porttitor rutrum, magna metus rutrum risus, id fringilla magna mi nec lorem. Etiam eget metus sed justo ultricies rhoncus. Praesent rhoncus arcu non dolor. Proin eu eros. Curabitur vehicula. Nulla vehicula lectus eget eros. Nulla vel nulla at dui dictum mollis. Etiam purus felis, pretium vel, eleifend id, consectetuer nec, purus. Vivamus pretium orci ac sapien. Etiam at tortor. Nunc tincidunt mi sed sapien. Etiam lacus pede, fermentum eu, blandit ac, congue eget, metus. Quisque sed sem. Mauris at sapien. Ut luctus.
+
+</div>
+
+</body>
+</html>
